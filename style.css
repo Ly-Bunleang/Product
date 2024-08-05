@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial;
+}
+
+.daskboard{
+    background-color: #fff;
+    height: 85vh;
+    width: 50vw;
+    border-radius: 5px;
+}
+
+.daskboard .box-top{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.box-top button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+
+.daskboard .box-table{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.box-table table,th,td{
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+
+.box-table table{
+    width:55rem;
+    table-layout: fixed;
+}
+
+table th,td{
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+table th{
+    background-color: #333;
+    color: #fff;
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    
+    .daskboard{
+        height: 80vh;
+        width: 90vw;
+
+    }
+    
+    .daskboard .box-top{
+        padding: 10px 20px 0 20px;
+        height: 10%;
+        
+    }
+
+    .box-top h1{
+        font-size: 25px;
+    }
+    
+    .box-top button{
+        padding: 5px;
+        font-size: 10px;
+    }
+
+
+    
+    .daskboard .box-table{
+        padding: 0 15px;
+    }
+
+    .box-table table{
+        width:55rem;
+        table-layout: fixed;
+    }
+
+    table th,td{
+        padding: 0 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    table th{
+        background-color: #333;
+        color: #fff;
+    }
+
+
+
+
+
+
+} 
